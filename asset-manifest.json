@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ealtenau-portfolio/static/css/main.7599cd8c.css",
+    "main.css": "/ealtenau-portfolio/static/css/main.6bc05bc8.css",
     "main.js": "/ealtenau-portfolio/static/js/main.f669676b.js",
     "static/media/tanana_header.png": "/ealtenau-portfolio/static/media/tanana_header.39c7c046f6884b74beb9.png",
     "index.html": "/ealtenau-portfolio/index.html",
-    "main.7599cd8c.css.map": "/ealtenau-portfolio/static/css/main.7599cd8c.css.map",
+    "main.6bc05bc8.css.map": "/ealtenau-portfolio/static/css/main.6bc05bc8.css.map",
     "main.f669676b.js.map": "/ealtenau-portfolio/static/js/main.f669676b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7599cd8c.css",
+    "static/css/main.6bc05bc8.css",
     "static/js/main.f669676b.js"
   ]
 }
