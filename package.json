@@ -2,7 +2,7 @@
   "name": "ealtenau-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.altenaugis.com",
+  "homepage": "https://ealtenau.github.io/ealtenau-portfolio/",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
