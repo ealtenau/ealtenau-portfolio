@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import PortfolioSection from './PortfolioSection';
 import ProjectDetail from './ProjectDetail';
@@ -17,7 +18,7 @@ function App() {
         <h2>Geospatial Science • Remote Sensing • Hydrology</h2>
       </header>
 
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={
           <>
             <AboutSection />
@@ -26,11 +27,18 @@ function App() {
           </>
         } />
         <Route path="/project/:projectId" element={<ProjectDetail />} />
-      </Routes>
+      </Routes> */}
       
-      {/* <footer>
-        <p>© 2025 Elizabeth Altenau</p>
-      </footer> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:projectId" element={<ProjectDetail />} />
+          {/* Add other routes if needed */}
+        </Routes>
+      </Router>
+
       <footer className="footer" >
         <div style={{ marginBottom: '0.5rem' }}>
           <a href="https://github.com/ealtenau" className="icon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#777' }}>
