@@ -1,39 +1,14 @@
 {
   "files": {
     "main.css": "/ealtenau-portfolio/static/css/main.f5c1d82d.css",
-    "main.js": "/ealtenau-portfolio/static/js/main.3799761f.js",
-    "static/media/airswot_img.jpg": "/ealtenau-portfolio/static/media/airswot_img.4b18e8828064ffb1a637.jpg",
-    "static/media/airswot-2.jpg": "/ealtenau-portfolio/static/media/airswot-2.a552ac201d363a33f6ec.jpg",
-    "static/media/airswot-1.jpg": "/ealtenau-portfolio/static/media/airswot-1.f91e16b36076cc7cac37.jpg",
-    "static/media/airswot-3.jpg": "/ealtenau-portfolio/static/media/airswot-3.dbb07d0fa18b487fc070.jpg",
+    "main.js": "/ealtenau-portfolio/static/js/main.f669676b.js",
     "static/media/tanana_header.png": "/ealtenau-portfolio/static/media/tanana_header.39c7c046f6884b74beb9.png",
-    "static/media/modeling-3.jpg": "/ealtenau-portfolio/static/media/modeling-3.e2bf512718fb9d1b5d41.jpg",
-    "static/media/modeling-4.jpg": "/ealtenau-portfolio/static/media/modeling-4.269052eea7c26827130c.jpg",
-    "static/media/sword-8.png": "/ealtenau-portfolio/static/media/sword-8.13a58fe586945c5b6619.png",
-    "static/media/sword-7.png": "/ealtenau-portfolio/static/media/sword-7.94f778e0e607d7c46452.png",
-    "static/media/airswot-5.jpg": "/ealtenau-portfolio/static/media/airswot-5.c83b8308973d8c87c8c5.jpg",
-    "static/media/airswot-4.jpg": "/ealtenau-portfolio/static/media/airswot-4.b43e658750a6d6a09279.jpg",
-    "static/media/airswot-6.jpg": "/ealtenau-portfolio/static/media/airswot-6.9d1c39730ca135dbe1e5.jpg",
-    "static/media/modeling-5.jpg": "/ealtenau-portfolio/static/media/modeling-5.fed105c668925198d68a.jpg",
-    "static/media/sword-2.jpg": "/ealtenau-portfolio/static/media/sword-2.8d92fecd58a32505b570.jpg",
-    "static/media/sword-5.jpg": "/ealtenau-portfolio/static/media/sword-5.728974dac4579c4c207c.jpg",
-    "static/media/sword-6.jpg": "/ealtenau-portfolio/static/media/sword-6.0f7ca97406034f2cb66a.jpg",
-    "static/media/modeling-6.jpg": "/ealtenau-portfolio/static/media/modeling-6.317054e31e01bdd0443b.jpg",
-    "static/media/sword_fig.png": "/ealtenau-portfolio/static/media/sword_fig.18b67c1a060a07ed8305.png",
-    "static/media/model_img.png": "/ealtenau-portfolio/static/media/model_img.e870c53e3559f4be4d23.png",
-    "static/media/sword-3.png": "/ealtenau-portfolio/static/media/sword-3.df1bbdd47f086580c602.png",
-    "static/media/modeling-2.jpg": "/ealtenau-portfolio/static/media/modeling-2.25d5d53a3106d7e03f34.jpg",
-    "static/media/sword_explorer.png": "/ealtenau-portfolio/static/media/sword_explorer.e5ea65c316542939bc88.png",
-    "static/media/sword-4.png": "/ealtenau-portfolio/static/media/sword-4.752e47995af1a26d84d3.png",
-    "static/media/modeling-1.jpg": "/ealtenau-portfolio/static/media/modeling-1.7fdf4872dc7ef950bb32.jpg",
-    "static/media/sword-1.jpg": "/ealtenau-portfolio/static/media/sword-1.149f00e2202043ef8eb5.jpg",
-    "static/media/headshot.jpg": "/ealtenau-portfolio/static/media/headshot.b09b41e493312736890d.jpg",
     "index.html": "/ealtenau-portfolio/index.html",
     "main.f5c1d82d.css.map": "/ealtenau-portfolio/static/css/main.f5c1d82d.css.map",
-    "main.3799761f.js.map": "/ealtenau-portfolio/static/js/main.3799761f.js.map"
+    "main.f669676b.js.map": "/ealtenau-portfolio/static/js/main.f669676b.js.map"
   },
   "entrypoints": [
     "static/css/main.f5c1d82d.css",
-    "static/js/main.3799761f.js"
+    "static/js/main.f669676b.js"
   ]
 }
