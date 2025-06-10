@@ -1,25 +1,57 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import PortfolioSection from './PortfolioSection';
+import ProjectDetail from './ProjectDetail';
+import AboutSection from './AboutSection';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { SiGooglescholar } from 'react-icons/si';
+import HighlightSection from './HighlightSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header>
+        <h1>Elizabeth H. Altenau</h1>
+        <h2>Geospatial Science • Remote Sensing • Hydrology</h2>
       </header>
+
+      <Routes>
+        <Route path="/" element={
+          <>
+            <AboutSection />
+            <PortfolioSection />
+            <HighlightSection />
+          </>
+        } />
+        <Route path="/project/:projectId" element={<ProjectDetail />} />
+      </Routes>
+      
+      {/* <footer>
+        <p>© 2025 Elizabeth Altenau</p>
+      </footer> */}
+      <footer className="footer" >
+        <div style={{ marginBottom: '0.5rem' }}>
+          <a href="https://github.com/ealtenau" className="icon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#777' }}>
+            <FaGithub size={24} />
+          </a>
+          <a href="https://www.linkedin.com/in/ealtenau/" className="icon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#0077b5' }}>
+            <FaLinkedin size={24} />
+          </a>
+          <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C34&q=Elizabeth+Altenau&oq=e" className="icon" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: '#333' }}>
+            <SiGooglescholar size={24} />
+          </a>
+          <a href="mailto:elizabeth.altenau@gmail.com" className="icon" style={{ margin: '0 10px', color: '#777' }}>
+            <FaEnvelope size={24} />
+          </a>
+        </div>
+        <p>© 2025 Elizabeth Altenau</p>
+      </footer>
     </div>
   );
 }
 
 export default App;
+
+
