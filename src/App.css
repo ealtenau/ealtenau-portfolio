@@ -75,7 +75,7 @@ header h2 {
   flex-direction: row;
   align-items: center;
   gap: 3rem;
-  flex-wrap: nowrap; /* prevents wrapping unless screen is too small */
+  flex-wrap: wrap; /* prevents wrapping unless screen is too small */
   max-width: 1250px;  /* Match the portfolio container width */
   margin: 0 auto 3rem auto; /* Centered with margin below */
   padding: 0 1rem;
@@ -83,7 +83,7 @@ header h2 {
 
 .about-image {
   width: 250px;
-  height: 250px;
+  height: auto;
   object-fit: cover;
   /* border-radius: 100px; */
   flex-shrink: 0; /* keeps image from shrinking */
