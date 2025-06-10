@@ -10,12 +10,15 @@ function AboutSection() {
         <div className="about-text">
           <h2 className="about-title">ABOUT ME</h2>
           <p>
-            Hi there! I love nature, design, and analytics. It’s only fitting I am passionate 
-            about geospatial science which sits at the intersection of all these disciplines. 
-            I have 10+ years of experience in collecting, managing, analyzing, and visualizing 
-            spatial data for diverse applications in hydrology. Strong expertise in Python, R, QGIS, 
-            and ESRI products. Driven by a passion for solving complex problems and delivering 
-            user-friendly solutions.
+            Hi there! I'm passionate about geospatial science because it brings 
+            together my love of nature, design, and analytics. With over 10 years 
+            of experience in hydrology-focused projects, I specialize in collecting, 
+            managing, analyzing, and visualizing spatial data to solve real-world problems.
+            I have deep expertise in tools like Python, R, QGIS, and ESRI products, 
+            and I enjoy building intuitive, user-friendly solutions that support 
+            informed decision-making. Whether it's working with satellite imagery 
+            or modeling complex river systems, I bring curiosity, creativity, and 
+            technical skill to every project.
           </p>
         </div>
       </div>
