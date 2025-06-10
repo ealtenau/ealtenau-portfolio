@@ -11,35 +11,36 @@ const projectData = {
     subtitle: "Project Highlights",
     content: [
         {
-            image: require('./images/sword-1.jpg'),
+            // image: require('/images/sword-1.jpg'),
+            image: '/images/sword-1.jpg',
             caption: "Datasets used in SWORD development."
         },
         {
-            image: require('./images/sword-2.jpg'),
+            image: '/images/sword-2.jpg',
             caption: "Corrections to the original SWORD centerlines which are derived from the Global Widths from Landsat (GRWL) database."
         },
         {
-            image: require('./images/sword-3.png'),
+            image: '/images/sword-3.png',
             caption: "Merged attributes from the various auxillary datasets onto the SWORD cenerlines in the Mississippi Basin."
         },
         {
-            image: require('./images/sword-4.png'),
+            image: '/images/sword-4.png',
             caption: "Schematic of the logic used for reach definition in SWORD."
         },
         {
-            image: require('./images/sword-5.jpg'),
+            image: '/images/sword-5.jpg',
             caption: "Example of SWORD reaches in the upper Mississippi Basin."
         },
         {
-            image: require('./images/sword-6.jpg'),
+            image: '/images/sword-6.jpg',
             caption: "SWORD Reach ID, Node ID, and topological structure."
         },
         {
-            image: require('./images/sword-7.png'),
+            image: '/images/sword-7.png',
             caption: "SWORD reach numbers per continent and derived distance from outlet."
         },
         {
-            image: require('./images/sword-8.png'),
+            image: '/images/sword-8.png',
             caption: "Topology validation using a modified lumped routing code."
         },
     ],
@@ -54,27 +55,27 @@ const projectData = {
     subtitle: "Project Highlights",
     content: [
         {
-            image: require('./images/airswot-1.jpg'),
+            image: '/images/airswot-1.jpg',
             caption: "AirSWOT extent and field data collection."
         },
         {
-            image: require('./images/airswot-2.jpg'),
+            image: '/images/airswot-2.jpg',
             caption: "Binary water mask creation from color infrared imagery."
         },
         {
-            image: require('./images/airswot-3.jpg'),
+            image: '/images/airswot-3.jpg',
             caption: "AirSWOT data filtering."
         },
         {
-            image: require('./images/airswot-4.jpg'),
+            image: '/images/airswot-4.jpg',
             caption: "AirSWOT data aggregation onto GPS profile."
         },
         {
-            image: require('./images/airswot-5.jpg'),
+            image: '/images/airswot-5.jpg',
             caption: "Along profile comparisons of water surface elevation between AirSWOT and GPS measurements."
         },
         {
-            image: require('./images/airswot-6.jpg'),
+            image: '/images/airswot-6.jpg',
             caption: "Along profile comparisons of slope between AirSWOT and GPS measurements."
         },
     ],
@@ -87,27 +88,27 @@ const projectData = {
     subtitle: "Project Highlights",
     content: [
         {
-            image: require('./images/modeling-1.jpg'),
+            image: '/images/modeling-1.jpg',
             caption: "Model structure."
         },
         {
-            image: require('./images/modeling-2.jpg'),
+            image: '/images/modeling-2.jpg',
             caption: "Field collection of GPS surveys and pressure transducer data."
         },
         {
-            image: require('./images/modeling-3.jpg'),
+            image: '/images/modeling-3.jpg',
             caption: "Custom interpolation of river bathymetry."
         },
         {
-            image: require('./images/modeling-4.jpg'),
+            image: '/images/modeling-4.jpg',
             caption: "Bathymetry correction of submerged river bars and islands."
         },
         {
-            image: require('./images/modeling-5.jpg'),
+            image: '/images/modeling-5.jpg',
             caption: "Spatial results of model water surface elevation and associated errors."
         },
         {
-            image: require('./images/modeling-6.jpg'),
+            image: '/images/modeling-6.jpg',
             caption: "Temporal results of model water surface elevation and associated errors."
         },
     ],

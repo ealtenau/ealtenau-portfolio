@@ -1,5 +1,5 @@
 import React from 'react';
-import highlightImg from './images/sword_explorer.png'; // Replace with your actual image
+import highlightImg from '/images/sword_explorer.png'; // Replace with your actual image
 
 function HighlightSection() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // Import images directly from src/images/
-import modelImg from './images/model_img.png';
-import swordImg from './images/sword_fig.png';
-import airswotImg from './images/airswot_img.jpg';
+import modelImg from '/images/model_img.png';
+import swordImg from '/images/sword_fig.png';
+import airswotImg from '/images/airswot_img.jpg';
 
 const projects = [
   {

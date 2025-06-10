@@ -1,6 +1,6 @@
 // AboutSection.js
 import React from 'react';
-import profileImg from './images/headshot.jpg'; // Add your photo to src/images/
+import profileImg from '/images/headshot.jpg'; // Add your photo to src/images/
 
 function AboutSection() {
   return (
