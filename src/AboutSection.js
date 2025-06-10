@@ -1,12 +1,15 @@
 // AboutSection.js
 import React from 'react';
-import profileImg from '/images/headshot.jpg'; // Add your photo to src/images/
 
 function AboutSection() {
   return (
     <section className="about">
       <div className="about-content">
-        <img src={profileImg} alt="Elizabeth Altenau" className="about-image" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/headshot.jpg`}
+          alt="Elizabeth Altenau"
+          className="about-image"
+        />
         <div className="about-text">
           <h2 className="about-title">ABOUT ME</h2>
           <p>

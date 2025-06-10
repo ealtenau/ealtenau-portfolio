@@ -1,5 +1,4 @@
 import React from 'react';
-import highlightImg from '/images/sword_explorer.png'; // Replace with your actual image
 
 function HighlightSection() {
   return (
@@ -17,7 +16,7 @@ function HighlightSection() {
         </div>
         <div className="highlight-image">
           <a href="https://www.swordexplorer.com/" target="_blank" rel="noopener noreferrer">
-            <img src={highlightImg} alt="Highlighted Project" />
+            <img src={`${process.env.PUBLIC_URL}/images/sword_explorer.png`} alt="Highlighted Project" />
           </a>
         </div>
       </div>
