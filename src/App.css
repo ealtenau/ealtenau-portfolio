@@ -5,7 +5,7 @@
 
 header {
   font-family: 'Montserrat', sans-serif;
-  background-image: url('../public/images/tanana_header.png'); /* Use relative path from CSS file */
+  background-image: url('../public/images/tanana_header.jpg'); /* Use relative path from CSS file */
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);

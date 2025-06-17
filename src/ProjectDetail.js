@@ -36,11 +36,11 @@ const projectData = {
             caption: "SWORD Reach ID, Node ID, and topological structure."
         },
         {
-            image: process.env.PUBLIC_URL + '/images/sword-7.png',
+            image: process.env.PUBLIC_URL + '/images/sword-7.jpg',
             caption: "SWORD reach numbers per continent and derived distance from outlet."
         },
         {
-            image: process.env.PUBLIC_URL + '/images/sword-8.png',
+            image: process.env.PUBLIC_URL + '/images/sword-8.jpg',
             caption: "Topology validation using a modified lumped routing code."
         },
     ],
