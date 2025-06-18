@@ -12,7 +12,7 @@ const projectData = {
     content: [
         {
             // image: require('/images/sword-1.jpg'),
-            image: process.env.PUBLIC_URL + '/images/sword-1.jpg',
+            image: process.env.PUBLIC_URL + '/images/sword-1.png',
             caption: "Datasets used in SWORD development."
         },
         {
