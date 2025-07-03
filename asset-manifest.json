@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b163a918.css",
-    "main.js": "/static/js/main.d5c472be.js",
+    "main.js": "/static/js/main.8ca1993e.js",
     "static/media/tanana_header.jpg": "/static/media/tanana_header.e703d9ba1d5bb0873c73.jpg",
     "index.html": "/index.html",
     "main.b163a918.css.map": "/static/css/main.b163a918.css.map",
-    "main.d5c472be.js.map": "/static/js/main.d5c472be.js.map"
+    "main.8ca1993e.js.map": "/static/js/main.8ca1993e.js.map"
   },
   "entrypoints": [
     "static/css/main.b163a918.css",
-    "static/js/main.d5c472be.js"
+    "static/js/main.8ca1993e.js"
   ]
 }
