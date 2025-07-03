@@ -17,7 +17,7 @@ const projectData = {
         },
         {
             image: process.env.PUBLIC_URL + '/images/sword-2.jpg',
-            caption: "Corrections to the original SWORD centerlines which are derived from the Global Widths from Landsat (GRWL) database."
+            caption: "Corrections to the original SWORD centerlines which are derived from the Global River Widths from Landsat (GRWL) database."
         },
         {
             image: process.env.PUBLIC_URL + '/images/sword-3.png',
@@ -37,7 +37,7 @@ const projectData = {
         },
         {
             image: process.env.PUBLIC_URL + '/images/sword-7.jpg',
-            caption: "SWORD reach numbers per continent and derived distance from outlet."
+            caption: "SWORD reach numbers per continent and derived distance-from-outlet."
         },
         {
             image: process.env.PUBLIC_URL + '/images/sword-8.jpg',

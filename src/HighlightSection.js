@@ -5,13 +5,13 @@ function HighlightSection() {
     <section className="highlight-section">
       <div className="highlight-content">
         <div className="highlight-text">
-          <h2 className="highlight-title">HIGHLIGHT</h2>
+          <h2 className="highlight-title">SPOTLIGHT</h2>
           <p>
-            Explore an in-depth interactive dashboard on the SWOT River Database (SWORD) 
+            Explore an interactive dashboard on the SWOT River Database (SWORD) 
             featured in the project section above. SWORD is used as the foundation for the 
-            vector products produced by the Surface Water and Ocean Topography (SWOT) satellite 
-            mission. You can explore the most up-to-date SWORD version, and report areas for 
-            improving the database. The data is free to explore and download, go check it out!
+            river vector products produced by the Surface Water and Ocean Topography (SWOT) satellite 
+            mission. You can browse the most up-to-date SWORD version and report areas for 
+            improving the database. The data is free to download. Click the image to check it out!
           </p>
         </div>
         <div className="highlight-image">

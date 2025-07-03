@@ -5,7 +5,7 @@ const projects = [
   {
     id: "sword",
     title: "A Global River Database for Satellite Data",
-    description: "Project encompasses developing, improving, and maintaining the SWOT River Database (SWORD). SWORD is the foundation for the SWOT river vector products.",
+    description: "Project encompasses developing, improving, and maintaining the SWOT River Database (SWORD). SWORD is the foundation for the Surface Water and Ocean Topography (SWOT) satellite mission river vector products.",
     image: process.env.PUBLIC_URL + "/images/sword_fig.png",  // Use imported image variable here
     // link: "#",
   },
@@ -19,7 +19,7 @@ const projects = [
   {
     id: "modeling",
     title: "Hydrodynamic Modeling in Complex Rivers",
-    description: "Project looks at how model resolution and dimensionality impacts surface water hydraulics in an anabranching river.",
+    description: "Project examines how model resolution and dimensionality impact surface water hydraulics in an anabranching river.",
     image: process.env.PUBLIC_URL + "/images/model_img.png", 
     // link: "#",
   },
